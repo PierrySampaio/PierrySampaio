@@ -47,19 +47,28 @@
 </div>
 
 ---
+---
 
-### 📊 Estatísticas do GitHub
+### 📊 Estatísticas e Atividade
 
 <div align="center">
+  <!-- Estatísticas Gerais e Linguagens Mais Usadas (Cartões Estáticos) -->
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_GITHUB&show_icons=true&theme=midnight-purple&title_color=8D03B0&icon_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_GITHUB&layout=compact&theme=midnight-purple&title_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
 </div>
 
 <br/>
 
+<!-- ANIMAÇÃO DA NAVE CONSTRUINDO COMMITS -->
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USUARIO_GITHUB&theme=midnight-purple&background=0d1117&stroke=8D03B0&ring=8D03B0&fire=8D03B0&currStreakLabel=8D03B0&hide_border=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="commit-builder-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="commit-builder-light.svg">
+    <img alt="Commit Builder Animation" src="commit-builder-dark.svg">
+  </picture>
 </div>
+
+---
 
 ---
 
