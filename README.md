@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8D03B0&height=180&section=header&text=Olá,%20sou%20[Seu%20Nome]!%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=8D03B0&height=180&section=header&text=Olá,%20sou%20Pierry%20Sampaio!%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%"/>
 </div>
 
 <div align="center">
@@ -47,28 +47,24 @@
 </div>
 
 ---
----
 
 ### 📊 Estatísticas e Atividade
 
 <div align="center">
-  <!-- Estatísticas Gerais e Linguagens Mais Usadas (Cartões Estáticos) -->
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_GITHUB&show_icons=true&theme=midnight-purple&title_color=8D03B0&icon_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_GITHUB&layout=compact&theme=midnight-purple&title_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=PierrySampaio&show_icons=true&theme=midnight-purple&title_color=8D03B0&icon_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PierrySampaio&layout=compact&theme=midnight-purple&title_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
 </div>
 
 <br/>
 
-<!-- ANIMAÇÃO DA NAVE CONSTRUINDO COMMITS -->
+<!-- ANIMAÇÃO REAL DOS COMMITS (SINCRONIZADA) -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="commit-builder-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="commit-builder-light.svg">
-    <img alt="Commit Builder Animation" src="commit-builder-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PierrySampaio/PierrySampaio/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PierrySampaio/PierrySampaio/output/github-contribution-grid-snake.svg">
+    <img alt="Gráfico de Commits Animado" src="https://raw.githubusercontent.com/PierrySampaio/PierrySampaio/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
-
----
 
 ---
 
