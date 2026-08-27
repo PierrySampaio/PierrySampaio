@@ -1,0 +1,48 @@
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Estilos e Animação -->
+  <style>
+    @keyframes buildCommit {
+      0% { opacity: 0; transform: scale(0); }
+      50% { opacity: 1; transform: scale(1.1); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes moveShip {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(750px, 0); }
+    }
+    .commit-block {
+      fill: #2d333b; /* Cor base (commit vazio) */
+      animation: buildCommit 0.5s ease-out forwards;
+      opacity: 0;
+    }
+    .ship {
+      animation: moveShip 10s linear infinite;
+    }
+  </style>
+
+  <!-- Definição da Nave (Formato Simples) -->
+  <defs>
+    <g id="spaceship">
+      <path d="M20 5 L35 20 L20 35 L5 20 Z" fill="#8D03B0" stroke="#ffffff" stroke-width="2"/>
+      <path d="M10 20 H30" stroke="#ffffff" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <!-- Grade de Contribuições (Estilo GitHub Simplificado) -->
+  <g transform="translate(10, 50)">
+    <!-- Linha de Blocos (Simulando uma semana) -->
+    <rect x="0" y="0" width="20" height="20" rx="4" class="commit-block" style="animation-delay: 0s; fill: #4a148c;"/>
+    <rect x="25" y="0" width="20" height="20" rx="4" class="commit-block" style="animation-delay: 0.5s; fill: #6a1b9a;"/>
+    <rect x="50" y="0" width="20" height="20" rx="4" class="commit-block" style="animation-delay: 1s; fill: #2d333b;"/>
+    <rect x="75" y="0" width="20" height="20" rx="4" class="commit-block" style="animation-delay: 1.5s; fill: #8D03B0;"/>
+    <rect x="100" y="0" width="20" height="20" rx="4" class="commit-block" style="animation-delay: 2s; fill: #4a148c;"/>
+    <rect x="125" y="0" width="20" height="20" rx="4" class="commit-block" style="animation-delay: 2.5s; fill: #2d333b;"/>
+    <rect x="150" y="0" width="20" height="20" rx="4" class="commit-block" style="animation-delay: 3s; fill: #6a1b9a;"/>
+    <!-- Adicione mais blocos se quiser uma linha mais longa -->
+  </g>
+
+  <!-- Nave Animada que passa por cima -->
+  <g class="ship" transform="translate(0, 30)">
+    <use href="#spaceship"/>
+  </g>
+</svg>
