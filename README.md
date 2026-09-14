@@ -64,10 +64,10 @@
 ### 📊 Estatísticas no GitHub
 
 <p align="center">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=PierrySampaio&show_icons=true&theme=midnight-purple&title_color=8D03B0&icon_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=PierrySampaio&show_icons=true&theme=midnight-purple&title_color=8D03B0&icon_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
 </p>
 <p align="center">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PierrySampaio&layout=compact&theme=midnight-purple&title_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PierrySampaio&layout=compact&theme=midnight-purple&title_color=8D03B0&text_color=ffffff&bg_color=0d1117&hide_border=true" />
 </p>
 
 </td>
